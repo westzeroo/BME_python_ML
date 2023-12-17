@@ -1,5 +1,6 @@
 # BME_ML_python_basic_1
 
+#basic methods
 # capitalize: First upper case, the others lower cases
 x = "machine learning is FUN"
 print("captitalize(): ", x.capitalize())
