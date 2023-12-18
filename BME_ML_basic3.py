@@ -330,3 +330,60 @@ print(my_list)
 
 my_list = [x*y for x in [1,2,3] for y in [10,20,30] if x*y>20]
 print(my_list)
+
+# Intro_BME_ML_basic4
+# Built-in function_1
+print("print() prints out the results")
+a = [1,2,3]
+print(f"len() returns the number of elements: len(a) = {len(a)}")
+print(f"type() returns the data type: type(a) = {type(a)}")
+print(f"id() returns the adress of the object in memory: id(a) = {id(a)}")
+print(f"pow(a,b) returns a**b: pow(2,3) = {pow(2,3)}")
+print(f"range() is a sequence type rather than a function: list(range(5)) = {list(range(5))}")
+a = ['Spring', 'Summer', 'Fall', 'Winter']
+print(f"enumerate() returns an enumerate object: list(enumerate(a)) = {list(enumerate(a))}")
+a = ['One', 'Two', 'Three']
+b = [1, 2, 3]
+print(f"zip() returns an iterator of tuples: list(zip(a,b)) = {list(zip(a,b))}")
+
+# Built-in function_2
+a = -1
+b = [-1,2,-3,4,-5]
+print(abs(a)) # for a single value
+print(max(b))
+print(max(1,2,3))
+print(min(b))
+print(min(1,2,3))
+print(sum(b)) # for a iterable (sequence)
+
+# Data type function
+a = list() # a = []
+print(type(a))
+a = (1,2,3)
+print(type(a))
+a = list(a)
+print(type(a))
+a = tuple() # a = ()
+print(type(a))
+a = [1,2,3]
+print(type(a))
+a = tuple(a)
+print(type(a))
+a = str() # a = ""
+print(type(a))
+a = 123
+print(type(a))
+a = str(a)
+print(type(a))
+a = dict() # a = {}
+print(type(a))
+a = bool()
+print(type(a))
+a = 1
+print(bool(a))
+a = 0
+print(bool(a)) # False only if the value is zero
+a = 123
+print(bool(a))
+a = -1
+print(bool(a))
